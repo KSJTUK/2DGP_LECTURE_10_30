@@ -51,7 +51,8 @@ def draw():
 
 
 def pause():
-    pass
+    boy.wait_time = 1000000000000
+
 
 def resume():
-    pass
+    boy.wait_time = get_time()

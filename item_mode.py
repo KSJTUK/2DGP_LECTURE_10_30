@@ -12,8 +12,10 @@ def init():
     pannel = Pannel()
     game_world.add_object(pannel, 3)
 
+
 def finish():
     game_world.remove_object(pannel)
+
 
 def update():
     game_world.update()
@@ -23,6 +25,7 @@ def draw():
     clear_canvas()
     game_world.render()
     update_canvas()
+
 
 def handle_events():
     events = get_events()

@@ -9,16 +9,20 @@ def init():
     global image
     image = load_image('title.png')
 
+
 def finish():
     pass
 
+
 def update():
     pass
+
 
 def draw():
     clear_canvas()
     image.draw(400, 300)
     update_canvas()
+
 
 def handle_events():
     events = get_events()
